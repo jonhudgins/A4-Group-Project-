@@ -1,2 +1,2 @@
 # A4-Group-Project-
-HKS Programming a Data Course 
+HKS Programming and Data Course 
