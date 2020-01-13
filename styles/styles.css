@@ -1,4 +1,39 @@
+
+html {
+	font-size: 20px;
+	font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
 body {
   background-color: white;
-  font-family: 'Lato', sans-serif;
+  text-align: center;
+  min-width: 200px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+	font-weight: 900px;
+}
+
+h2 {
+	font-weight: 700px;
+}
+
+h4 {
+	font-weight: 300px;
+	text-transform: uppercase;
+}
+
+p {
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+.header {
+	position: fixed;
+	font-size: 14px;
+	width: 100%;
+	top: 0;
+	text-transform: uppercase;
 }
