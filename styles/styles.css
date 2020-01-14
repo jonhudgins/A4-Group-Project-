@@ -6,10 +6,6 @@ html {
 
 body {
   background-color: white;
-  text-align: center;
-  min-width: 200px;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -36,4 +32,11 @@ p {
 	width: 100%;
 	top: 0;
 	text-transform: uppercase;
+}
+
+.main-content {
+  	text-align: center;
+  	min-width: 200px;
+  	max-width: 600px;
+  	margin: 0 auto;
 }
