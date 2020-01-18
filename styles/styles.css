@@ -16,6 +16,10 @@ h2 {
 	font-weight: 700px;
 }
 
+h3 {
+  
+}
+
 h4 {
 	font-weight: 300px;
 }
@@ -25,13 +29,13 @@ p {
 	line-height: 1.4;
 }
 
-.header {
+/*.header {
 	position: fixed;
 	font-size: 14px;
 	width: 100%;
 	top: 0;
 	text-transform: uppercase;
-}
+}*/
 
 .main-content {
   	text-align: center;
@@ -40,7 +44,7 @@ p {
   	margin: 0 auto;
 }
 
-.main-content-analysis {
+/*.main-content-analysis {
   	text-align: center;
   	min-width: 200px;
   	max-width: 1000px;
@@ -59,21 +63,21 @@ p {
     min-width: 200px;
     max-width: 5000px;
     margin: 0 auto;
-}
+}*/
 
 
-.page-title {
+/*.page-title {
   padding: 25px 10px 30px 10px;
-}
+}*/
 
 .chart {
   padding: 25px 10px 50px 10px;
 }
 
-.how {
+/*.how {
   padding: 25px 10px 30px 20px;
 }
 
 .data-cleaning {
   padding: 15px 10px 50px 20px;
-}
+}*/
