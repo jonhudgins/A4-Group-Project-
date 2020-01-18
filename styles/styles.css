@@ -70,3 +70,11 @@ img {
 	font-style: italic;
 	font-weight: lighter;
 }
+
+.annotation {
+	font-size: 20px;
+	color: #5A5A5A;
+	padding: 10px;
+	font-style: italic;
+	font-weight: lighter;
+}
