@@ -10,18 +10,25 @@ body {
 
 h1 {
 	font-weight: 1000px;
+  padding-top: 25px;
 }
 
 h2 {
-	font-weight: 700px;
+	font-weight: 800px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-h3 {
+h3 {font-weight: 600px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   
 }
 
 h4 {
-	font-weight: 300px;
+	font-weight: 400px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 p {
@@ -38,7 +45,7 @@ p {
 }*/
 
 .main-content {
-  	text-align: center;
+  	text-align: left;
   	min-width: 200px;
   	max-width: 600px;
   	margin: 0 auto;
@@ -68,7 +75,7 @@ p {
 
 /*.page-title {
   padding: 25px 10px 30px 10px;
-}*/
+}
 
 .chart {
   padding: 25px 10px 50px 10px;
