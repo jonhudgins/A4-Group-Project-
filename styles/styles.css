@@ -63,6 +63,13 @@ img {
     max-height: auto;
 }
 
+.byline {
+	color: #5A5A5A;
+	padding: 10px;
+	font-style: italic;
+	font-weight: lighter;
+}
+
 .annotation {
 	font-size: 10px;
 	color: #5A5A5A;
@@ -71,9 +78,3 @@ img {
 	font-weight: lighter;
 }
 
-.byline {
-	color: #5A5A5A;
-	padding: 10px;
-	font-style: italic;
-	font-weight: lighter;
-}
