@@ -5,47 +5,68 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+	background-color: #ffffff;
 }
 
 h1 {
 	font-weight: 1000px;
-  padding-top: 25px;
+	padding-top: 25px;
 }
 
 h2 {
 	font-weight: 800px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-h3 {font-weight: 600px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  
+h3 {
+	font-weight: 600px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
 }
 
 h4 {
 	font-weight: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  color: #5A5A5A;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #5A5A5A;
 }
+
 
 p {
 	font-weight: normal;
 	line-height: 1.4;
 }
 
+img {
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+}
 
 .main-content {
-  	text-align: left;
-  	min-width: 200px;
-  	max-width: 600px;
-  	margin: 0 auto;
+	text-align: left;
+	min-width: 200px;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .chart {
-  padding: 25px 10px 50px 10px;
+	padding: 25px 10px 50px 10px;
 }
 
+.image {
+    width: 600px;
+    min-width: 200px;
+    min-height: auto;
+    max-height: auto;
+}
+
+.annotation {
+	font-size: 10px;
+	color: #5A5A5A;
+	padding: 10px;
+	font-style: italic;
+	font-weight: lighter;
+}
