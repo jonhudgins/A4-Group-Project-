@@ -35,9 +35,10 @@ Team Member: Nicholas Anway
 Product Manager: Jonathan Hudgins 
 
 Project Boards
-- Link to Taskboard for Sprint 1:
-- Link to Taskboard for Sprint 2:
-- Link to Backlog/User Stories not used :
+- Milstone Sprint 1: https://github.com/jonhudgins/A4-Group-Project-/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Sprint+1%22
+- Milestone Sprint 2: https://github.com/jonhudgins/A4-Group-Project-/milestone/2
+- Scrum Board (Sprint 1 & 2): https://github.com/jonhudgins/A4-Group-Project-/projects/2 
+- Link to Backlog/User Stories not used :https://github.com/jonhudgins/A4-Group-Project-/projects/1 
 
 Daily Scrum Meeting 
 Link to a record of standup meetings including burndown for each sprint. 
@@ -50,8 +51,6 @@ Link to a record of standup meetings including burndown for each sprint.
 
 Link to slack channel: https://app.slack.com/client/TS7KRDTB8/CSH0VMH2A/thread/CSH0VMH2A-1579353743.001100 
 
-Link to completed retrospective: google form 
+Link to completed retrospective: <ADD LINK TO COMPLETED GOOGLE FORM HERE>
 
-
-  
    
