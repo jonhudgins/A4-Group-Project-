@@ -1,4 +1,6 @@
 
+/*Formatting for our page styles*/
+
 html {
 	font-size: 20px;
 	font-family: 'Lato', 'Helvetica', sans-serif;
@@ -54,6 +56,9 @@ img {
 
 .chart {
 	padding: 25px 10px 50px 10px;
+	margin: 0 auto;
+	max-width: 600px;
+	max-height: auto;
 }
 
 .image {
@@ -77,4 +82,25 @@ img {
 	font-style: italic;
 	font-weight: lighter;
 }
+
+/*Formatting for D3 chart*/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.browser text {
+  text-anchor: end;
+}
+
+
+.chart-container {
+	margin: 0 auto;
+	max-width: 600px;
+}	
+
+
 
