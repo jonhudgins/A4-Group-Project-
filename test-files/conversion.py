@@ -24,12 +24,3 @@ with open('clean_all_center-conservative-progressiv-stories_2019.csv', 'w') as f
 		date_output = parsed_date.strftime("%y-%b-%d")
 		writer.writerow([date_output, progressive, conservative])
 
-
-# Set a variable birthday = "1-May-12".
-# birthday = "1-May-12"
-
-# # Parse the date using datetime.datetime.strptime.
-# parsed_date = datetime.strptime(birthday, "%d-%B-%y")
-
-# # Use strftime to output a date that looks like "5/1/2012".
-# date_output = parsed_date.strftime("%m/%-d/%Y")

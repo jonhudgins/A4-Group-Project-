@@ -42,9 +42,9 @@ p {
 }
 
 img {
-    max-width: 600px;
-    height: auto;
-    padding: 20px;
+	max-width: 600px;
+	height: auto;
+	padding: 20px;
 }
 
 .main-content {
@@ -62,10 +62,10 @@ img {
 }
 
 .image {
-    width: 600px;
-    min-width: 200px;
-    min-height: auto;
-    max-height: auto;
+	width: 600px;
+	min-width: 200px;
+	min-height: auto;
+	max-height: auto;
 }
 
 .byline {
@@ -83,7 +83,38 @@ img {
 	font-weight: lighter;
 }
 
-/*Formatting for D3 chart*/
+/* Formatting for D3 chart */
+
+/*.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}*/
+
+.browser text {
+  text-anchor: end;
+}
+
+
+.chart-container {
+	display: block;
+	margin: 0 auto;
+}	
+
+.chart-heading {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.chart-subheading {
+	font-size: 16px;
+}
+
+
+/* Formatting for D3 bar-charts */
+
+}
 
 .axis path,
 .axis line {
@@ -92,15 +123,12 @@ img {
   shape-rendering: crispEdges;
 }
 
-.browser text {
-  text-anchor: end;
+.x.axis path {
+  display: none;
 }
 
-
-.chart-container {
+/*#bar-chart1 {
+	display: block;
 	margin: 0 auto;
-	max-width: 600px;
-}	
-
-
+}*/
 
