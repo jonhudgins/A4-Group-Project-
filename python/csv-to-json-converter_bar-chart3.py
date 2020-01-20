@@ -1,5 +1,5 @@
-# Data cleaning for bar-chart1, "Conservative Media Stories Associate Socialism with Democrats at 
-# Seven Times the Rate of Progressive Media Stories" (analysis page)
+# Data cleaning for bar-chart3, "Conservative Media Stories Associate Socialism with "The Squad" 
+# at More Than Four Times the Rate of Progressive Media Stories" (analysis page)
 
 # NOTE:  This converter was run with the input csv and output json files in the same folder.
 # I have since moved them.  As a result, the code won't run unless the filepath for the 
@@ -15,7 +15,7 @@ import pandas as pd
 
 #open csv  and convert it to a list of dictionaries saved to the variable stories
 
-with open('socialist_democrat_15-words_all-conservative-progressive_19.csv', 'r') as f:
+with open('the-squad_all-conservative-progressive-stories-over-time_2019.csv', 'r') as f:
 	reader = csv.DictReader(f)
 	rows = list(reader)
 	stories = [dict(row) for row in rows]	
@@ -91,7 +91,7 @@ stories_by_quarter = [Q1dic, Q2dic, Q3dic, Q4dic]
 
 # write stories_by_quarter to a json file
 
-with open('clean_socialist_democrat_15-words_all-conservative-progressive_19.json', 'w') as f:
+with open('clean_the-squad_all-conservative-progressive-stories-over-time_2019.json', 'w') as f:
     json.dump(stories_by_quarter, f, indent = 4)
 
 
