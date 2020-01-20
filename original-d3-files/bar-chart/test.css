@@ -1,0 +1,21 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+#bar-chart1 {
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: lato, sans-serif;
+}

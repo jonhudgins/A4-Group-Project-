@@ -1,0 +1,54 @@
+[
+    {
+        "categorie": "Q1",
+        "values": [
+            {
+                "value": 178,
+                "rate": "Progressive"
+            },
+            {
+                "value": 1575,
+                "rate": "Conservative"
+            }
+        ]
+    },
+    {
+        "categorie": "Q2",
+        "values": [
+            {
+                "value": 161,
+                "rate": "Progressive"
+            },
+            {
+                "value": 1072,
+                "rate": "Conservative"
+            }
+        ]
+    },
+    {
+        "categorie": "Q3",
+        "values": [
+            {
+                "value": 171,
+                "rate": "Progressive"
+            },
+            {
+                "value": 923,
+                "rate": "Conservative"
+            }
+        ]
+    },
+    {
+        "categorie": "Q4",
+        "values": [
+            {
+                "value": 75,
+                "rate": "Progressive"
+            },
+            {
+                "value": 544,
+                "rate": "Conservative"
+            }
+        ]
+    }
+]
