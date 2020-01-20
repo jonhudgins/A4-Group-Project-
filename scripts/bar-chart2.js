@@ -1,9 +1,8 @@
-
 // modify width and height to fit page styline, maintaining original aspect ratio
 
-var margin = {top: 20, right: 10, bottom: 30, left: 60},
-    width = 550 - margin.left - margin.right,
-    height = 260 - margin.top - margin.bottom;
+var margin = {top: 20, right: 0, bottom: 30, left: 70},
+    width = 600  - margin.left - margin.right,
+    height = 313 - margin.top - margin.bottom;
 
 var x0 = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);

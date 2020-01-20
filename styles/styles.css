@@ -56,7 +56,6 @@ img {
 
 .chart {
 	padding: 25px 10px 50px 10px;
-	margin: 0 auto;
 	max-width: 600px;
 	max-height: auto;
 }
@@ -83,23 +82,15 @@ img {
 	font-weight: lighter;
 }
 
-/* Formatting for D3 chart */
+/* Formatting for D3 bar-charts */
 
-/*.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}*/
-
-.browser text {
-  text-anchor: end;
+.chart-image{
+	max-width: 600px;
+	max-height: auto;
 }
-
 
 .chart-container {
 	display: block;
-	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }	
@@ -114,8 +105,6 @@ img {
 }
 
 
-/* Formatting for D3 bar-charts */
-
 .axis path,
 .axis line {
   fill: none;
@@ -125,10 +114,5 @@ img {
 
 .x.axis path {
   display: none;
-}
 
-/*#bar-chart1 {
-	display: block;
-	margin: 0 auto;
-}*/
 
