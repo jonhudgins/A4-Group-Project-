@@ -84,11 +84,6 @@ img {
 
 /* Formatting for D3 bar-charts */
 
-.chart-image{
-	max-width: 600px;
-	max-height: auto;
-}
-
 .chart-container {
 	display: block;
 	padding-top: 20px;
@@ -114,5 +109,5 @@ img {
 
 .x.axis path {
   display: none;
-
+}
 

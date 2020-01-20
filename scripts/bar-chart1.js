@@ -29,7 +29,7 @@ var color = d3.scale.ordinal()
 
 // modify div tags to the css id #bar-chart1
 
-var svg = d3.select('#bar-chart1').append("svg")
+var svg1 = d3.select('#bar-chart1').append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -46,14 +46,14 @@ d3.json("../data/cleaned-json_bar-charts/clean_socialist_democrat_15-words_all-c
   x1.domain(rateNames).rangeRoundBands([0, x0.rangeBand()]);
   y.domain([0, d3.max(data, function(categorie) { return d3.max(categorie.values, function(d) { return d.value; }); })]);
 
-  svg.append("g")
+  svg1.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
 // modify verticle axis label
 
-  svg.append("g")
+  svg1.append("g")
       .attr("class", "y axis")
       .style('opacity','0')
       .call(yAxis)
@@ -65,9 +65,9 @@ d3.json("../data/cleaned-json_bar-charts/clean_socialist_democrat_15-words_all-c
       .style('font-weight','bold')
       .text("Stories");
 
-  svg.select('.y').transition().duration(500).delay(1300).style('opacity','1');
+  svg1.select('.y').transition().duration(500).delay(1300).style('opacity','1');
 
-  var slice = svg.selectAll(".slice")
+  var slice = svg1.selectAll(".slice")
       .data(data)
       .enter().append("g")
       .attr("class", "g")
@@ -96,7 +96,7 @@ d3.json("../data/cleaned-json_bar-charts/clean_socialist_democrat_15-words_all-c
       .attr("height", function(d) { return height - y(d.value); });
 
   //Legend
-  var legend = svg.selectAll(".legend")
+  var legend = svg1.selectAll(".legend")
       .data(data[0].values.map(function(d) { return d.rate; }).reverse())
   .enter().append("g")
       .attr("class", "legend")
