@@ -100,6 +100,8 @@ img {
 .chart-container {
 	display: block;
 	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }	
 
 .chart-heading {
@@ -113,8 +115,6 @@ img {
 
 
 /* Formatting for D3 bar-charts */
-
-}
 
 .axis path,
 .axis line {

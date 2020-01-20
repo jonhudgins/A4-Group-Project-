@@ -29,7 +29,7 @@ var color = d3.scale.ordinal()
 
 // modify div tags to the css id #bar-chart1
 
-var svg = d3.select('#bar-chart1').append("svg")
+var svg = d3.select('#bar-chart2').append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -37,7 +37,7 @@ var svg = d3.select('#bar-chart1').append("svg")
 
 // modify data source
 
-d3.json("../data/cleaned-json_bar-charts/clean_socialist_democrat_15-words_all-conservative-progressive_19.json", function(error, data) {
+d3.json("../data/cleaned-json_bar-charts/clean_socialist-or-socialism-and-greennewdeal_all-conservative-progressive_19.json", function(error, data) {
 
   var categoriesNames = data.map(function(d) { return d.categorie; });
   var rateNames = data[0].values.map(function(d) { return d.rate; });
