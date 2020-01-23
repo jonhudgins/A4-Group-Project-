@@ -13,20 +13,17 @@ Selecting Visualisation
 Code Organisation/Cleanliness
 - The main folder for our work is 'A4-Group-Project-'. For HTML, within this, there is a main index.html for the main page. Then each webpage has a separate folder (1) analysis (2) methodology and (3) about us. Each of these has a folder with a index html page in it. 
 - For CSS, there is a folder called styles, and within it we have our css stylesheet. This is referred to across our HTML pages and for the DS visualisation. 
-- For Javascript, there is a folder called scripts, and within it there are the javascript files for the D3 visualisation.
-- For python data cleaning, there is a python folder. A README.md in that folder explains the cleaning process
-- Finally, there is data folder, which contains the original and modified data files. 
+- For Javascript, there is a folder called scripts, and within it there are the javascript files for the D3 visualisation. 
+- Finally, there is data folder, which contains the data files: https://github.com/jonhudgins/A4-Group-Project-/tree/master/data
+ (1) orginal source data: https://github.com/jonhudgins/A4-Group-Project-/tree/master/data/original-csvs
+ (2) transformation steps/python script: https://github.com/jonhudgins/A4-Group-Project-/tree/master/python
+ (3) final data: https://github.com/jonhudgins/A4-Group-Project-/tree/master/data/cleaned-json_bar-charts 
 
 
 Narrative Structure & Cohesiveness
 - As far as possible, each of us tried to work on a separate branch and then merge to master. 
 - We also used a stylesheet and class ID tags that were referenced across HTML pages for cohesiveness. 
 - Finally, we used our slack channel to keep each other informed about updates we had made individually. 
-
- Link to final project rendered on GitHub pages:
- Data folder: (1) orginal source data (2) transformation steps/python script (3) final data 
-
-
 
 PROCESS 
 
@@ -42,16 +39,14 @@ Project Boards
 - Link to Backlog/User Stories not used :https://github.com/jonhudgins/A4-Group-Project-/projects/1 
 
 Daily Scrum Meeting 
-Link to a record of standup meetings including burndown for each sprint. 
-    Date/Time 	Type 	Points 	Remaining 	Total
-    Jan 1 4pm 	In Person 	40 	60 	100
-    Jan 2 3:30 pm 	Skype 	55 	57 	112
-    Jan 3 10am 	In Person 	70 	42 	112
-    Jan 4 12pm 	Slack 	90 	22 	112
-    Jan 5 8pm 	In Person 	110 	2 	112
+- Link to a record of standup meetings including burndown for each sprint: https://github.com/jonhudgins/A4-Group-Project-/blob/master/ScrumMeetings.xlsx
 
 Link to slack channel: https://app.slack.com/client/TS7KRDTB8/CSH0VMH2A/thread/CSH0VMH2A-1579353743.001100 
 
-Link to completed retrospective: <ADD LINK TO COMPLETED GOOGLE FORM HERE>
+Link to final github page: https://github.com/jonhudgins/A4-Group-Project-
+
+Link to final website: https://jonhudgins.github.io/A4-Group-Project-/index.html
+
+Link to completed retrospective: submitted via google form by Inayat on behalf of the team 
 
    
