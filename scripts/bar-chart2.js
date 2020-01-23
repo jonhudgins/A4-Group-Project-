@@ -26,9 +26,9 @@ var yAxis = d3.svg.axis()
 var color = d3.scale.ordinal()
     .range(["#26a2cb","#c52125"]);
 
-// modify div tags to the css id #bar-chart1
+// modify div tags to the css id #bar-chart2
 
-var svg = d3.select('#bar-chart2').append("svg")
+var svg2 = d3.select('#bar-chart2').append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -45,14 +45,14 @@ d3.json("../data/cleaned-json_bar-charts/clean_socialist-or-socialism-and-greenn
   x1.domain(rateNames).rangeRoundBands([0, x0.rangeBand()]);
   y.domain([0, d3.max(data, function(categorie) { return d3.max(categorie.values, function(d) { return d.value; }); })]);
 
-  svg.append("g")
+  svg2.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
 // modify verticle axis label
 
-  svg.append("g")
+  svg2.append("g")
       .attr("class", "y axis")
       .style('opacity','0')
       .call(yAxis)
@@ -64,9 +64,9 @@ d3.json("../data/cleaned-json_bar-charts/clean_socialist-or-socialism-and-greenn
       .style('font-weight','bold')
       .text("Stories");
 
-  svg.select('.y').transition().duration(500).delay(1300).style('opacity','1');
+  svg2.select('.y').transition().duration(500).delay(1300).style('opacity','1');
 
-  var slice = svg.selectAll(".slice")
+  var slice = svg2.selectAll(".slice")
       .data(data)
       .enter().append("g")
       .attr("class", "g")
@@ -95,7 +95,7 @@ d3.json("../data/cleaned-json_bar-charts/clean_socialist-or-socialism-and-greenn
       .attr("height", function(d) { return height - y(d.value); });
 
   //Legend
-  var legend = svg.selectAll(".legend")
+  var legend = svg2.selectAll(".legend")
       .data(data[0].values.map(function(d) { return d.rate; }).reverse())
   .enter().append("g")
       .attr("class", "legend")
